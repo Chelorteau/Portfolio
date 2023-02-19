@@ -471,6 +471,7 @@ button {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    border: 1px solid red ;
 }
 
 .mes_projets_card_button_element{

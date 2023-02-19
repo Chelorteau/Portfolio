@@ -471,6 +471,7 @@ button {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    border: 1px solid red ;
 }
 
 .mes_projets_card_button_element{
@@ -650,6 +651,7 @@ footer{
     }
 
     .prolil-pic-about-me{
+        border: 1px solid red;
         display: none;
     }
 
@@ -700,7 +702,8 @@ footer{
     }
 
     .contact_card_text_email{
-        font-size: 0.8rem;
-        width: 100%;
+        /* font-size: 1rem;s */
+        border: 1px solid red;
+        width: 80%;
     }
 }
