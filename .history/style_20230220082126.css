@@ -300,10 +300,10 @@ button {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -10rem;
+    bottom: -7rem;
 }
 
-.competence{ 
+.competence{
     margin: 0 10% 0 10%;
     display: flex;
     flex-wrap: wrap;
@@ -366,6 +366,7 @@ button {
     0%{
         transform: translateY(0);
         opacity: 0;
+        z-index: 2;
     }
     50%{
         opacity: 0.5;
