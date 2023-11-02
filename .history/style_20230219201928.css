@@ -1,0 +1,708 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #00242c;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    height: 100rem;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.border{
+    border: 1px solid blue;
+}
+
+.principal-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; 
+    height: 100vh;
+    background-color: #00222a;
+}
+
+.menu{
+  position: fixed;
+  top: 35%;
+  right: 3rem;
+  width: 5rem;
+  height: 30rem;
+  border-radius: 2.5rem;
+  background-size: 3rem;
+  cursor: pointer;
+  -webkit-box-shadow: inset 5px 5px 50px -18px #00D1FF; 
+  box-shadow: inset 5px 5px 50px -18px #00D1FF;
+}
+
+.sidebar_menu{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    list-style: none;
+}
+
+
+
+.sidebar_menu i{
+    color: #00D1FF;
+    font-size: 2rem;
+}
+
+.sidebar_menu i:hover{
+    color: white;
+}
+
+.prolil-pic{
+    width: 40rem;
+}
+
+
+.html-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 3.5rem;
+    background-color:transparent;
+    position: absolute;
+    right: 30%;
+    top: 20%;
+    -webkit-box-shadow: inset 5px 5px 50px -18px #E44D26; 
+    box-shadow: inset 1px 1px 50px -25px #E44D26;
+}
+
+.html-icon{
+    color: #E44D26;
+    background-color: transparent;
+    font-size: 4rem;
+}
+
+.css-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    background-color:transparent;
+    position: absolute;
+    left: 28%;
+    top: 35%;
+    -webkit-box-shadow: inset 5px 5px 50px -18px #2965f1; 
+    box-shadow: inset 1px 1px 50px -25px #2965f1;
+
+}
+
+.css-icon{
+    color: #2965f1;
+    background-color: transparent;
+    font-size: 5rem;
+}
+
+.php-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    background-color:transparent;
+    position: absolute;
+    right: 30%;
+    top: 35%;
+    -webkit-box-shadow: inset 5px 5px 50px -18px #767bb3; 
+    box-shadow: inset 1px 1px 50px -25px #767bb3;
+
+}
+
+.php-icon{
+    color: #767bb3;
+    background-color:transparent;
+    font-size: 5rem;
+}
+
+.js-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+    height: 12rem;
+    border-radius: 6rem;
+    background-color:transparent;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    -webkit-box-shadow: inset 5px 5px 50px -18px #f5de19; 
+    box-shadow: inset 1px 1px 50px -25px #f5de19;
+}
+
+.js-icon{
+    color: #f5de19;
+    background-color:transparent;
+    font-size: 7rem;
+}
+
+.color-text-blue{
+    color: #00D1FF;
+}
+
+
+.hi{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.name{
+    font-weight: 700;
+    font-size: 9rem;
+}
+
+.metier{
+    color: #005569;
+    font-size: 2.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button_download{
+    color: #005569;
+    background-color: #00D1FF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 500;
+    width: 15rem;
+
+}
+
+.button_download:hover ,.button_talk:hover{
+    color: white;
+    border: 1px solid white;
+}
+.button_talk{
+    color: #00D1FF;
+    background-color: #00242C;
+    border: 1px solid #00D1FF;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 500;
+    width: 15rem;
+}
+
+.contenaire_button{
+    width: 33rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_me_title{
+    text-align: center;
+    color: #00D1FF;
+    font-size: 4rem;
+    width: 100%;
+}
+
+.about_me{
+    margin: 0 10% 0 10%;
+    position: relative;
+}
+
+.about_me_elements{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.prolil-pic-about-me{
+    width: 20rem;
+    margin-left: 10rem;
+}
+
+.about_me_left_side{
+    width: 50%;
+    color: #005569;
+    padding: 6rem;
+    font-size: 1.8rem;
+}
+.about_me_right_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.my_blob_1{
+    position: absolute;
+    width: 20%;
+    top: 1%;
+    left: 2%;
+    z-index: -1;
+    opacity: 0.04;
+}
+
+.my_blob_2{
+    position: absolute;
+    width: 20%;
+    bottom: 1%;
+    right: 2%;
+    z-index: -1;
+    opacity: 0.04;
+}
+
+
+.my_blob_3{
+    position: absolute;
+    width: 20%;
+    bottom: 10%;
+    left: 15%;
+    z-index: -1;
+    opacity: 0.04;
+}
+
+.my_blob_4{
+    position: absolute;
+    width: 20%;
+    bottom: 40%;
+    right: 1%;
+    z-index: -1;
+    opacity: 0.04;
+}
+
+.my_blob_5{
+    position: absolute;
+    width: 40%;
+    top: 100%;
+    right: 10%;
+    z-index: 1;
+    opacity: 0.04;
+}
+
+.bubbles img{
+    width: 5rem;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -7rem;
+}
+
+.competence{
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.competence_element{
+    width: 45%;
+    height: 40%;
+    border-radius: 2rem;
+    background-color: #00d0ffb9;
+    margin-bottom: 5%;
+    height: 30rem;
+}
+
+.competence_element_title{
+    color: #005569;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.competence_element_objet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.skill_competence{
+    width: 45%;
+    height: 20%;
+    background-color: #005569;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.skill_competence:hover{
+    border: 0.2rem solid rgba(255, 255, 255, 0.461);
+}
+
+.margin_left_2{
+    margin-left: 1rem;
+}
+
+.icon_check{
+    color: #00D1FF;
+    font-size: 2rem;
+}
+
+.skill_competence_name{
+    color: white;
+    font-size: 1.5rem;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    width: 50px;
+    animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+    width: 20px;
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    width: 40px;
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+    width: 50px;
+    animation-delay: 4.5s
+
+}.bubbles img:nth-child(5){
+    width: 60px;
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+    width: 70px;
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+    width: 40px;
+    animation-delay: 7s;
+}
+.poulpe{
+    width: 15%;
+    position: absolute;
+    bottom: 10%;
+    left:-7%;
+    opacity: 0.2;
+}
+
+.poisson{
+    width: 15%;
+    position: absolute;
+    right: 10%;
+    top: 140%;
+    opacity: 0.5;
+}
+
+.mes_projets{
+    margin: 0 10% 0 10%;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.mes_projet_title{
+    text-align: center;
+    color: #00D1FF;
+    font-size: 4rem;
+    /* border: 1px solid red; */
+}
+
+.mes_projets_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mes_projets_card_element{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #00d0ff90;
+    justify-content: space-around;
+    border-radius: 2rem;
+    align-items: center;
+}
+
+.mes_projets_card_element:hover{
+    border: 0.5rem solid white; 
+    box-sizing: border-box;
+
+}
+.mes_projets_card_img{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.mes_projets_card_element_text{
+    color: #00222a;
+    font-size: 2rem;
+}
+.mes_projets_card_button{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red ;
+}
+
+.mes_projets_card_button_element{
+    width: 40%;
+    height: 3rem;
+}
+
+.mes_projets_card_button_element a{
+    color: #00d0ff90;
+    text-decoration: none;
+}
+
+
+
+.github{
+    background-color: #00d0ff90;
+    border: 1px solid #00222a;
+    border-radius: 1rem;
+}
+
+.website{
+    background-color: #00222a;
+    border: 1px solid #00d0ff90;
+    color: #00d0ff90;
+    border-radius: 1rem;
+}
+
+.contact{
+    margin: 0 20% 5% 20%;
+
+}
+
+.contact_element{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.contact_title{
+    text-align: center;
+    color: #00D1FF;
+    font-size: 4rem;
+}
+
+.contact_card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact_card_object{
+    width: 90%;
+    background-color: #00d0ff90;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+    height: 9rem;
+}
+
+.contact_card_object i {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contact_card_object P {
+    margin: 0;
+}
+
+.contact_card_text{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+.contact_form{
+    width: 60%;
+}
+
+.opacity0-5{
+    opacity: 0.5;
+}
+
+.form_input{
+    width: 100%;
+    height: 90%;
+}
+
+.form_input_area{
+    width: 90%;
+    border: 1px solid #00d0ff90;    
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    color: #00d0ff90;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.form_input_area::placeholder{
+    font-size: 2rem;
+    color: #00d0ff90;
+    padding-left: 1rem;
+}
+
+.message_area{
+    width: 90%;
+    color: #00d0ff90;
+    border: 1px solid #00d0ff90;    
+    height: 15rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.message_area::placeholder{
+    color: #00d0ff90;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.button_send{
+    width: 40%;
+    height: 4rem;
+    background-color: #00d0ff90;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 3rem;
+    background-color: #00d0ff90;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+@media screen and (max-width:1200px){
+    html {
+        font-size: 30%;
+    }
+
+    .html-parent{
+        visibility: hidden;
+    }
+
+    .css-parent{
+        visibility: hidden;
+    }
+    .js-parent{
+        visibility: hidden;
+    }
+    .php-parent{
+        visibility: hidden;
+    }
+    .contenaire_button{
+        flex-direction: column;
+        width: 50%;
+        height: 25rem;
+        justify-content: space-around;
+    }
+
+    .button_download{
+        width: 100%;
+    }
+
+    .button_talk{
+        width: 100%;
+    }
+
+    .prolil-pic-about-me{
+        border: 1px solid red;
+        display: none;
+    }
+
+    .about_me_left_side{
+        width: 100%;
+    }
+
+    .menu{
+        position: absolute;
+        right: 30%;
+        top: 8rem;
+        width: 40%; 
+        height: 8rem;
+    }
+
+    .sidebar_menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;      
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .sidebar_menu i{
+        font-size: 4rem;
+    }
+
+    .competence{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mes_projets_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mes_projets_card_element{
+        margin-bottom: 3rem;
+        width: 45%;
+    }
+
+    .mes_projets_card_button_element{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .contact_card_text_email{
+        font-size: 2rem;
+        border: 1px solid red;
+    }
+}
